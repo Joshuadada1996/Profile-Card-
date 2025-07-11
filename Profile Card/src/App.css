@@ -1,0 +1,167 @@
+/* Base styles */
+body {
+  background-color: #1A1B21;
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Main wrapper for profile, buttons, about, and interests */
+.info-wrapper {
+  max-width: 320px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+}
+
+/* Profile image */
+.profile_info {
+  display: flex;
+  justify-content: center;
+}
+
+.sanji {
+  width: 90%;
+  height: 317px;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+
+/* Name, job title, and site */
+.my-name,
+.my-job,
+.site {
+  display: block;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.my-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+.my-job {
+  color: #F3BF99;
+  font-size: 1rem;
+}
+
+.site {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Contact buttons row */
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+/* Button styles for Email and LinkedIn */
+.email-element,
+.linkedin-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 48%;
+  text-align: center;
+}
+
+.email-element {
+  background-color: #fff;
+  color: #1A1B21;
+}
+
+.linkedin-element {
+  background-color: #5093E2;
+  color: white;
+}
+
+/* Section titles (About, Interests) */
+.about-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.5rem;
+  text-align: left;
+  color: white;
+}
+
+/* Section paragraphs */
+.about-text {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: #ddd;
+}
+
+/* Optional: Add hover effects */
+.email-element:hover,
+.linkedin-element:hover {
+  opacity: 0.9;
+  transition: 0.2s ease-in-out;
+}
+
+/* Footer styles */
+.footer {
+  max-width: 320px;
+  margin: 2rem auto 0; /* Removed bottom margin to remove gap */
+  padding: 1rem 0 0;
+  color: #aaa; /* only footer text */
+  font-size: 0.85rem;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  position: relative;
+}
+
+/* Border line on top */
+.footer-border {
+  width: 100%;
+  height: 1px;
+  background-color: #23252C;
+  margin-bottom: 1rem;
+}
+
+/* Social icons container */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Icon styles */
+.social-icons a.icon {
+  color: #888; /* grey */
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+/* On hover, icons become black */
+.social-icons a.icon:hover {
+  color: #000;
+}
+
+/* Optional brand color hover */
+.social-icons a.twitter:hover {
+  color: #1DA1F2;
+}
+.social-icons a.facebook:hover {
+  color: #1877F2;
+}
+.social-icons a.instagram:hover {
+  color: #C13584;
+}
+.social-icons a.github:hover {
+  color: #333;
+}
